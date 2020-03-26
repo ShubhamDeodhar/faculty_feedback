@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    
+    box-sizing:content-box;
+}
+body{
+    background:url("./new-home.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#head{
+    position:absolute;
+    width:98%;
+    height:12%;
+    top:1%;
+    left:1%;
+    border:1px solid black;
+    font-size:400%;
+}
+#btn{
+    position:absolute;
+    
+    top:12%;
+    left:77%;
+}
+#dropdownMenuButton{
+    background-color:#4cd137;
+    font-size:40%;
+}
+a{
+    font-size:150%;
+}
+a:hover{
+    background-color:#dcdde1;
+}
+#about{
+    position:absolute;
+    width:50%;
+    height:50%;
+    top:18.5%;
+    left:10%;
+    font-family: 'Rubik', sans-serif;
+}
+#l1{
+    font-size:250%;
+    font-weight:bolder;
+
+}
+#l2,#l3{
+    font-size:200%;
+    font-weight:bolder;
+
+}
+#req{
+     position:absolute;
+     width:auto;
+     height:auto;
+     font-family: 'Rubik', sans-serif;
+     font-size:200%;
+     top:82%;
+     left:60%;
+     font-weight: bolder;
+}
+#two{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:100%;
+    border:1px solid black;
+    background:url('./teacher.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#c2{
+    position:absolute;
+    width:100%;
+    height: 15%;
+    color:white;
+    font-size:300%;
+    font-family: 'Rubik', sans-serif;
+
+    border:1px solid black;
+}
+#c3{
+    position:absolute;
+    width:50%;
+    height:auto;
+    top:20%;
+    left:50%;
+    font-family: 'Rubik', sans-serif;
+    border:1px solid black;
+    font-size:250%;
+    color:black;
+    font-weight: bolder;
+}
+#FA{
+    position:absolute;
+    width:50%;
+    height:auto;
+    top:30%;
+    left:50%;
+    font-family: 'Rubik', sans-serif;
+    border:1px solid black;
+    font-size:250%;
+    color:black;
+    font-weight: bolder;
+}
+#Other{
+      position:absolute;
+      width: 50%;
+      height:40%;
+      top:40%;
+      left:50%;
+      font-family: 'Rubik', sans-serif;
+      border:1px solid black;
+      font-size:250%;
+      color:black;
+      font-weight: bolder;
+}
+#btn2{
+    position: absolute;
+    margin-left:45%;
+}
+#three{
+    position:absolute;
+    width:100%;
+    height:115%;
+    top:200%;
+    border:1px solid black;
+    background:url('./Leaderboard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#title{
+    position:absolute;
+    width:40%;
+    height:auto;
+    
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="./loginStyle.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="container">
+       <a href="faculty_login.html"> <button type="button" class="btn btn-primary" id="faculty">Faculty Login</button></a>
+        <div id="header">
+            <h1><u>Faculty Feedback Form Login</u><sub>Model 1</sub></h1>
+        </div>
+        <div id="Login">
+            <form id="form" action="PHP.php" method="POST">
+                <br/>
+                <h2 id="p">Student Login Page</h2><hr/>
+                <br/>
+                <h2>Registrtion Number:</h2><br/> <input type="text" class="form-control"name="Reg_no" placeholder="Regitration Number" aria-describedby="inputGroup-sizing-sm" required/><hr/>
+                
+                
+                <h2>Password:<sub>first-time password is DOB in(DDMMYYYY)</sub></h2>
+                
+                <input type="password" class="form-control"name="password" placeholder="Password" aria-describedby="inputGroup-sizing-sm"required/>
+                <hr/>
+                <input class="btn btn-primary" id="btn"type="submit" value="Submit">
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

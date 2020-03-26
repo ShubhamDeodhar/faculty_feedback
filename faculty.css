@@ -1,0 +1,48 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: content-box;
+}
+body{
+    background:url("./FacultyLP.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#btn1{
+    margin-left:1%;
+    margin-top:1%;
+}
+#head{
+    position: absolute;
+    width:30%;
+    height:15%;
+    top:5%;
+    left:35%;
+    border:1px solid black;
+    text-align:center;
+    background-color:#ecf0f1;
+
+}
+#F-login{
+    position: absolute;
+    width:40%;
+    height:50%;
+    top:30%;
+    left:30%;
+    border:1px solid black;
+    background-color:#ecf0f1;
+}
+h2{
+    margin-left:25%;
+}
+hr{
+    color:black;
+}
+#enter{
+    margin-left:40%;
+}
+#change{
+    position: absolute;
+    left:90%;
+    margin-top:1%;
+}

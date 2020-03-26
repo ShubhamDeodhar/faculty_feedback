@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change password</title>
+    <link href="./change.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body><div class="container">
+    <div id="head">
+        <h1>For Security Purpose we request you to change your alloted password</h1>
+    </div>
+    <div id="change">
+        <h2>Change password--</h2><br/>
+     <form action="./one.php" method="post">
+        <h3>Registration Number:</h3><br/>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Reg_no" name="reg_no">
+        <br/><br/>
+        <h3>New Password:</h3><br/>
+        <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="New_password" name="new_p">
+        <br/>
+        <h3>Confirm Password:</h3><br/>
+        <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="New_password_repeat" name="new_pr">
+        <br/><br/><br/>
+        <input class="btn btn-primary" id="btn"type="submit" value="Submit">
+    </form>
+    </div>
+</div>
+</body>
+</html>
